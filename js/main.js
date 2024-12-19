@@ -144,7 +144,7 @@ backgroundInterval = setInterval(() => {
     // Get Random Number 
 let randomNumber = Math.floor(Math.random() * imgsArray.length)
 // Change Background Image URl
-landingPage.style.backgroundImage = 'url("/IMAGES/' + imgsArray[randomNumber] + '")';
+landingPage.style.backgroundImage = 'url("IMAGES/' + imgsArray[randomNumber] + '")';
 }, 1000);
     }
 }
