@@ -417,16 +417,22 @@ margin: 0 0 12px;
 .about-us .info-box .image-box img{
     height: 350px;
     float: right;
-    width: 30%;
     margin-left: 20px;
 }
 
 @media (max-width: 767px) {
     .about-us .image-box img {
-        margin-right: 150px;
+        width: 100%;
         padding-top: 20px;
     }
+    .about-us .info-box .image-box{
+        flex: 1;
+        text-align: center;
+        width: 100%;
+    }
 }
+
+
 
 /*End About Us*/
 
