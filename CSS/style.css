@@ -194,7 +194,7 @@ padding: 8px 0;
 /*Start Landing Page*/
 .landing-page{
     min-height: 100vh;
-    background-image: url(../IMAGES/resturant.jpg);
+    background-image: url(./IMAGES/resturant.jpg);
     background-size: cover;
     position: relative;
 }
